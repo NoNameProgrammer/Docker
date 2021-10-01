@@ -1,0 +1,6 @@
+docker service create \
+--name orbital-command \
+-e RABBITMQ_DEFAULT_USER=egiles \
+-e RABBITMQ_DEFAULT_PASS=egilespass \
+--network overmind \
+rabbitmq

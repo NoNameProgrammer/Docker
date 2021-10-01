@@ -1,0 +1,1 @@
+docker rm -f $(docker ps -a -q) && docker image rm $(docker images -q)

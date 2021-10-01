@@ -1,0 +1,6 @@
+docker-machine create --driver virtualbox Char
+
+#docker-machine create --driver virtualbox --virtualbox-cpu-count "4" --virtualbox-memory "4096" Char
+
+#mv .docker /goinfre/egiles/
+#ln -s /goinfre/egiles/.docker /Users/egiles/.docker
